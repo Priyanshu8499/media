@@ -1,0 +1,180 @@
+
+
+@media only screen and (min-width:200px) and (max-width: 700px) 
+{
+    .first_row{
+    
+        height: 80px;
+        width: 106%;
+        background-color:black;
+        color: white;
+        padding-top: 15px;
+        padding-left: 50px;
+    
+    }
+    .iconns
+    {
+        display: none;
+    }
+    .bck
+    {
+        width: 106%;
+        height: 200px;
+        
+    }
+    .toppb
+   {
+        position: relative;
+        z-index: -1;
+        margin-left: -3%;
+    }
+
+
+    /* ---------------------------------------------------nav bar--------------------------------- */
+    .my_menu
+    {
+        display: none;
+    }
+
+
+    /* ---------------------------------------cards----------------------------------------- */
+    .card_title
+    {
+        font-size: 30px;
+        font-weight: bold;
+        color:  rgb(198, 17, 17);
+        text-transform:uppercase;
+        margin-left: 10%;
+    }
+
+
+    /* ----------------------------------------maps----------------------------------------------- */
+    .mape
+    {
+        margin-top: 6%;
+        margin-left: 4%;
+        width: 90%;
+        height:300px;
+        box-shadow: 1px 1px 50px 1px cornflowerblue;
+        border-radius: 50rem;
+    }
+
+    /* -----------------------------------------posters/video-------------------------------------------- */
+    .posters
+    {
+        width: 90%;
+        height: 250px;
+        margin-top:2%;
+        margin-bottom: 2%;
+        box-shadow:1px 1px 10px 1px red  ;
+        display: none;
+    }
+
+    /* --------------------------------------------------card+flex------------------------------------------- */
+    
+     .carddivv
+    {
+        margin-top: 3%;
+        display: flex;
+        margin-left: 7%;
+        margin-top: -5%;
+        position: relative;
+        z-index: 2;
+        display: none;
+    } 
+    .fluid
+    {
+        margin-top: 5%;
+        height: 40vh;
+        background-color:  rgb(198, 17, 17);
+        opacity: .9;
+        position: relatve;
+        z-index: 1;
+        display: none;
+     }
+     /* ---------------------------------------------------undermap----------------------------------------------- */
+     .undermap
+     {
+        display: none;
+     }
+
+     /* -----------------------------------------------events------------------------------------------------------ */
+     .btn2
+     {
+        border: solid;
+        margin-top: -10px;
+        margin-right: 1%;
+        float: right;
+        display: none;
+    }
+
+    /* ------------------------------------------------------eventcards--------------------------------------------- */
+     .querr
+     {
+        border-radius: 50rem; 
+        box-shadow: 1px 1px 20px 1px red; 
+        margin-bottom: 2%;  
+        margin-left: 2%;
+        width: 95%;
+     }
+     .div2
+     {
+        margin-top: 16%;
+        
+    }
+    .btn3
+    {
+        color:white;
+        background-color: red;
+        padding-left: 30px;
+        margin-left: 30%;
+        margin-bottom: 3%;
+        
+    }
+    .crdd
+    {
+        width: 90%;
+        border-radius: 100rem; 
+        box-shadow: 1px 1px 20px 1px red;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .bnt
+    {
+        color: white;
+        margin-left: 30%;
+        background-color:rgb(198, 17, 17);
+    }
+
+      /* ---------------------------------------------------bottom-contact----------------------------------------------------- */
+    .last2div
+    {
+        margin-top: 10%;
+        margin-left: 2%;
+        width: 100%;
+   } 
+   .maindiv
+   {
+    margin-left: 20%;
+    margin-top: 10%;
+    border: solid black;
+    width: 50%;
+   }
+   
+    
+/* ------------------------------------------------footerquery------------------------------------------------ */
+    .footer
+    {
+        background-color: rgb(198, 17, 17);
+        height: 50px;
+        width: 100%;
+        padding-top:20px;
+        padding-left: 60px;
+    }
+    .foot{
+        font-size: 12px;
+        color: white;
+        font-weight: 400;
+    }   
+    
+}
